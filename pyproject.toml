@@ -1,0 +1,24 @@
+
+[project]
+name = "ai-qna-generator"
+version = "0.1.0"
+description = "AI application using LangChain and FastAPI"
+requires-python = ">=3.10"
+
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain_openai",
+    "openai",
+    "pypdf",
+    "tiktoken",
+    "aiofiles",
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+    "pypdf2",
+    "faiss-cpu",
+    "python-dotenv",
+]
